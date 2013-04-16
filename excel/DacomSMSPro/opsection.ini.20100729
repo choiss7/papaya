@@ -1,0 +1,12 @@
+[Option]
+Host=m<<n{Xnp"t7Qc%4we)
+Path=VK?NNL~m)9$,luB_*^
+File=DacomSMSPro.ini
+NoMessageBox=1
+ 
+[Vars]
+<INFO>
+<Listener>164.124.119.154:2710</Listener>
+<SupportUrl>http:&slsh;&slsh;sms.uplus.co.kr:8080</SupportUrl>
+<HelpUrl>http:&slsh;&slsh;sms.uplus.co.kr&slsh;modules&slsh;help</HelpUrl>
+</INFO>
