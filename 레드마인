@@ -1,65 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T06:18:52.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9jS3XCmMvFlLEIvptr48" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T06:42:17.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="5r7QwEI4iD6nUC6tClIP" version="22.0.8" type="github">
   <diagram name="페이지-1" id="64yi9OGoSY4WA5B_-tDp">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lU-NZ-o23epXuK3NMykq-2" value="도커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="67" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-3" value="스토리지" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="67" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-4" value="도커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="247" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-5" value="스토리지" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="247" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lU-NZ-o23epXuK3NMykq-2" target="lU-NZ-o23epXuK3NMykq-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="357" as="sourcePoint" />
-            <mxPoint x="440" y="307" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lU-NZ-o23epXuK3NMykq-4" target="lU-NZ-o23epXuK3NMykq-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="257" as="sourcePoint" />
-            <mxPoint x="440" y="257" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-12" value="&lt;div&gt;Filesystem&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1K-blocks&amp;nbsp; &amp;nbsp; &amp;nbsp;Used Available Use% Mounted on&lt;/div&gt;&lt;div&gt;overlay&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;36088612 27497036&amp;nbsp; &amp;nbsp;8591576&amp;nbsp; 77% /&lt;/div&gt;&lt;div&gt;tmpfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 65536&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp;65536&amp;nbsp; &amp;nbsp;0% /dev&lt;/div&gt;&lt;div&gt;tmpfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3997908&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp;3997908&amp;nbsp; &amp;nbsp;0% /sys/fs/cgroup&lt;/div&gt;&lt;div&gt;192.168.219.172:vol_9dd35a4db7fdd93d1ee354cbbe02d3c1&amp;nbsp; 11458304&amp;nbsp; &amp;nbsp;349256&amp;nbsp; 11109048&amp;nbsp; &amp;nbsp;4% /bitnami/redmine&lt;/div&gt;&lt;div&gt;/dev/mapper/cl-root&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;36088612 27497036&amp;nbsp; &amp;nbsp;8591576&amp;nbsp; 77% /etc/hosts&lt;/div&gt;&lt;div&gt;shm&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 65536&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp;65536&amp;nbsp; &amp;nbsp;0% /dev/shm&lt;/div&gt;&lt;div&gt;tmpfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3997908&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp;3997908&amp;nbsp; &amp;nbsp;0% /proc/acpi&lt;/div&gt;&lt;div&gt;tmpfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3997908&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp;3997908&amp;nbsp; &amp;nbsp;0% /proc/scsi&lt;/div&gt;&lt;div&gt;tmpfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3997908&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp;3997908&amp;nbsp; &amp;nbsp;0% /sys/firmware&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="370" width="630" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="165" y="700" width="230" height="230" as="geometry" />
+          <mxGeometry x="114" y="130" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-17" value="Deployment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="169" y="60" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-19" value="파드정보" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="167" y="154" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lU-NZ-o23epXuK3NMykq-24" target="lU-NZ-o23epXuK3NMykq-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-24" value="볼륨" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="843" width="120" height="60" as="geometry" />
+          <mxGeometry x="165" y="273" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lU-NZ-o23epXuK3NMykq-25" target="lU-NZ-o23epXuK3NMykq-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lU-NZ-o23epXuK3NMykq-25" value="퍼시스턴스볼륨&lt;br&gt;클레임" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="843" width="120" height="60" as="geometry" />
+        <mxCell id="lU-NZ-o23epXuK3NMykq-25" value="퍼시스턴스볼륨&lt;br&gt;클레임&lt;br&gt;redmine" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="419" y="273" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-26" value="PV" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="843" width="60" height="60" as="geometry" />
+          <mxGeometry x="619" y="273" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-29" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(50, 109, 230); font-family: Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;pvc-7a9d0d98-3d03-4259-9666-0f2745b57d28&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="960" width="330" height="60" as="geometry" />
+          <mxGeometry x="349" y="360" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lU-NZ-o23epXuK3NMykq-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;192.168.219.172:vol_9dd35a4db7fdd93d1ee354cbbe02d3c1&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="795" width="360" height="40" as="geometry" />
+          <mxGeometry x="619" y="225" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-32" value="Deployment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-33" value="파드정보" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="604" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="lU-NZ-o23epXuK3NMykq-35" target="lU-NZ-o23epXuK3NMykq-37" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-35" value="볼륨" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="723" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="lU-NZ-o23epXuK3NMykq-37" target="lU-NZ-o23epXuK3NMykq-38" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-37" value="퍼시스턴스볼륨&lt;br&gt;클레임&lt;br&gt;redmine" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="723" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-38" value="PV" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="723" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-39" value="&lt;br&gt;pvc-4a417a99-8fec-4a01-92d8-6205ee79f91b" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="810" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-40" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;192.168.219.172:vol_9dd35a4db7fdd93d1ee354cbbe02d3c1&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="675" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-41" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;redmine&amp;nbsp;&lt;br&gt;네임스페이스&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-42" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;redmine-505&amp;nbsp;&lt;br&gt;네임스페이스&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="604" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lU-NZ-o23epXuK3NMykq-43" value="spec:&#xa;  accessModes:&#xa;    - ReadWriteOnce&#xa;  resources:&#xa;    requests:&#xa;      storage: 8Gi&#xa;  volumeName: pvc-7a9d0d98-3d03-4259-9666-0f2745b57d28&#xa;  storageClassName: gluster-heketi&#xa;  volumeMode: Filesystem" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="900" width="370" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
