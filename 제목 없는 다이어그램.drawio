@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T05:57:21.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="p2NsUs0tvqFy2CBwI8Eb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T06:01:37.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8UvISgFbPOXBMvrnyfED" version="22.0.8" type="github">
   <diagram name="페이지-1" id="E25U67c7O1HD_-kB2d2L">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-1" value="도커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-2" value="storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-4" value="root@redmine-5bc786c4bb-8f2sf:/# df&#xa;Filesystem                                           1K-blocks     Used Available Use% Mounted on&#xa;overlay                                               36088612 27497036   8591576  77% /&#xa;tmpfs                                                    65536        0     65536   0% /dev&#xa;tmpfs                                                  3997908        0   3997908   0% /sys/fs/cgroup&#xa;192.168.219.172:vol_9dd35a4db7fdd93d1ee354cbbe02d3c1  11458304   349256  11109048   4% /bitnami/redmine&#xa;/dev/mapper/cl-root                                   36088612 27497036   8591576  77% /etc/hosts&#xa;shm                                                      65536        0     65536   0% /dev/shm&#xa;tmpfs                                                  3997908        0   3997908   0% /proc/acpi&#xa;tmpfs                                                  3997908        0   3997908   0% /proc/scsi&#xa;tmpfs                                                  3997908        0   3997908   0% /sys/firmware" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="74" y="420" width="680" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S5UXbQW-HOk6RjYF7ZCP-1" target="S5UXbQW-HOk6RjYF7ZCP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-6" value="도커" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-7" value="storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="S5UXbQW-HOk6RjYF7ZCP-6" target="S5UXbQW-HOk6RjYF7ZCP-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5UXbQW-HOk6RjYF7ZCP-1" target="S5UXbQW-HOk6RjYF7ZCP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="280" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5UXbQW-HOk6RjYF7ZCP-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S5UXbQW-HOk6RjYF7ZCP-6" target="S5UXbQW-HOk6RjYF7ZCP-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="229" as="sourcePoint" />
+            <mxPoint x="380" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
